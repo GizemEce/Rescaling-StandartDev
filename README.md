@@ -17,7 +17,7 @@ so that each feature contributes approximately proportionately to the final dist
 
 The simplest method is rescaling the range of features to scale the range in [0, 1] or [−1, 1]. Selecting the target range 
 depends on the nature of the data. The general formula is given as:
-$$x=={x-min(x)}/{max(x)-min(x)}                    
+$$x=={x-min(x)}/{max(x)-min(x)}$$                    
 
 
 where x is an original value, x’ is the normalized value. For example, suppose that we have the students’ weight data, 
@@ -33,7 +33,7 @@ machines, logistic regression, and neural networks). This is typically done by c
 method of calculation is to determine the distribution mean and standard deviation for each feature. Next we subtract the
 mean from each feature. Then we divide the values (mean is already subtracted) of each feature by its standard deviation.
 
-$$z={x-μ}/{σ}
+$$z={x-μ}/{σ}$$
 
 where:
 
